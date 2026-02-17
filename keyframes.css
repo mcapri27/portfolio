@@ -1,0 +1,60 @@
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+} 
+
+@keyframes scrollLeft {
+    to {
+        left: -300px;
+    }
+}
+
+@keyframes scrollLeft2 {
+    to {
+        left: -400px;
+    }
+}
+
+@keyframes scrollLeft3 {
+    to {
+        left: -200px;
+    }
+}
+
+@keyframes scrollRight {
+    to {
+        right: -300px;
+    }
+}
+
+@keyframes scrollRight2 {
+    to {
+        right: -100px;
+    }
+}
+
+@keyframes scrollUp{
+    to {
+        top: -200px;
+    }
+}
+
+@keyframes scrollUpTablet{
+    to {
+        top: -150px;
+    }
+}

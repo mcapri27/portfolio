@@ -1,0 +1,99 @@
+html::-webkit-scrollbar, .blur--block--article::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;
+    border-radius: 10px; 
+}
+
+
+html::-webkit-scrollbar-track, .blur--block--article::-webkit-scrollbar-track{
+    width: 15px;
+    background-color: #ebeef1; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+html::-webkit-scrollbar-button, .blur--block--article::-webkit-scrollbar-button{
+    display: none;
+}
+
+html::-webkit-scrollbar-thumb, .blur--block--article::-webkit-scrollbar-thumb{  
+    background: #ebeef1; 
+    width: 5px;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+
+/**/
+.blur--block--article::-webkit-scrollbar, .blur--web--article2::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;
+    border-radius: 30px; 
+}
+
+
+.blur--block--article::-webkit-scrollbar-track, .blur--web--article2::-webkit-scrollbar-track{
+    width: 15px;
+    background-color: #ebeef1; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.blur--block--article::-webkit-scrollbar-corner, .blur--web--article2::-webkit-scrollbar-corner{
+    background: transparent;
+}
+
+.blur--block--article::-webkit-scrollbar-button, .blur--web--article2::-webkit-scrollbar-button{
+    display: none;
+}
+
+.blur--block--article::-webkit-scrollbar-thumb, .blur--web--article2::-webkit-scrollbar-thumb{  
+    background: #ebeef1; 
+    width: 5px;
+    border-radius: 30px;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+
+/**/
+.blur--privacy--article::-webkit-scrollbar,
+.blur--terms--article::-webkit-scrollbar,
+.blur--cookie--article::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;
+    border-radius: 30px; 
+}
+
+
+.blur--block--article::-webkit-scrollbar-track,
+.blur--terms--article::-webkit-scrollbar-track,
+.blur--cookie--article::-webkit-scrollbar-track{
+    width: 15px;
+    background-color: #ebeef1; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.blur--block--article::-webkit-scrollbar-corner,
+.blur--terms--article::-webkit-scrollbar-corner,
+.blur--cookie--article::-webkit-scrollbar-corner{
+    background: transparent;
+}
+
+.blur--block--article::-webkit-scrollbar-button,
+.blur--terms--article::-webkit-scrollbar-button,
+.blur--cookie--article::-webkit-scrollbar-button{
+    display: none;
+}
+
+.blur--block--article::-webkit-scrollbar-thumb,
+.blur--terms--article::-webkit-scrollbar-thumb,
+.blur--cookie--article::-webkit-scrollbar-thumb{  
+    background: #ebeef1; 
+    width: 5px;
+    border-radius: 30px;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}

@@ -1,0 +1,4502 @@
+ /* Very small phones (iPhone SE, Galaxy Fold closed) */
+  @media (min-width: 320px) {
+    .blur--block--grid2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 40%;
+        height: 95%;
+        width: 95%;
+    }
+
+    .close--article2{
+        left: 10%;
+    }
+    
+    .blur--web--article2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.375rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 p{
+        font-size: .875rem;
+        text-align: center;
+    }
+    
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1 div{
+        visibility: hidden;
+    }
+    
+    .blur---web--gallery--neu1::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+ 
+
+    /* Focal Point Media Queries */
+    .blur--focal--grid div{
+        visibility: hidden;
+    } 
+
+    .blur--focal--grid::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid div{
+        visibility: hidden;
+    }
+
+    .blur--instant--grid::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+ 
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur---web--gallery--neu4 div{
+        visibility: hidden;
+    } 
+
+    .blur---web--gallery--neu4::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    } 
+
+    /* Newspaper Media Queries */
+    .blur--news--grid div{
+        visibility: hidden;
+    }
+
+    .blur--news--grid::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid div{
+        visibility: hidden;
+    }
+
+    .blur--maga--grid::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria div{
+        visibility: hidden;
+    }
+
+    .blur--galleria::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch div{
+        visibility: hidden;
+    }
+
+    .blur--splotch::after{
+        display: block;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+  } 
+  
+  /* Medium phones (iPhone X/11/12/13, Pixel 5) */
+  @media (min-width: 375px) {
+    .blur--block--grid2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 40%;
+        height: 95%;
+        width: 95%;
+    }
+
+    .close--article2{
+        top: 5%;
+        left: 10%;
+    }
+    
+    .blur--web--article2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.375rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 p{
+        font-size: .875rem;
+        text-align: center;
+    }
+    
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1 div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu1::after{
+        display: none;
+    }
+
+    .blur---web--gallery--neu1--img h1{
+        font-size: 1.5rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 0.625rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.75rem;
+    }
+
+    .old--grid div i{
+        font-size: 1.75rem;
+    }  
+
+    .blur--focal--button{
+        font-size: 0.625rem;
+        height: 10%;
+        margin-bottom: 1.25em;
+    }
+ 
+    /* Focal Point Media Queries */
+    .blur--focal--grid div{
+        visibility: visible;
+    } 
+
+    .blur--focal--grid::after{
+        display: none;
+    }
+
+    .blur--focal--grid, .blur---focal--content--grid{ 
+        gap: 0.625rem;
+    }
+
+    .blur--focal--navbar{
+        width: 60%;
+    }
+
+    .blur--focal--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .blur--focal--hero h1{
+        font-size: 1.5rem;
+    }
+
+    .blur--focal--hero h2{
+        font-size: .875rem;
+    }
+
+    .blur--focal--grid3 div i{
+        font-size: 1.75rem;
+    }
+
+    .blur--focal--grid3 div span{
+        font-size: 1rem;
+    }
+
+    .blur--focal--grid3 div p{
+        font-size: .75rem;
+    }
+
+    .focal--template span{
+        font-size: 1.25rem;
+    }
+
+    .focal--template p{
+        font-size: 0.75rem;
+    }
+ 
+    /* Instant Film Media Queries */
+    .blur--instant--grid div{
+        visibility: visible;
+    }
+
+    .blur--instant--grid::after{
+        display: none;
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--navbar{
+        min-width: 55%; 
+    }
+
+    .blur--instant--navbar span{
+        font-size: 0.75rem;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.25rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: .875rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 0.625rem; 
+    }
+
+    .blur--instant--pics i{
+        top: 85%; 
+    }
+
+    .blur--instant--waffle span{
+        font-size: 1.375rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: 0.625rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -125px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 0.75rem;
+    }
+
+    .focal--button{
+        height: 1.5rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur---web--gallery--neu4 div{
+        visibility: visible;
+    } 
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(25%, 50%));
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none; 
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: .983rem;
+    }
+
+    .gala--button{
+        width: 1.375rem;
+        height: 1.375rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: .75rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: .75rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: .55rem;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.417rem;
+        line-break: anywhere; 
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .5rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 1.25rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: .5rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 5.375rem;
+        height: 5.375rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    /* Newspaper Media Queries */
+    .blur--news--grid div{
+        visibility: visible;
+    }
+
+    .blur--news--grid::after{
+        display: none;
+    } 
+
+    .news--header span{
+        font-size: 1.75rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 1.375rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: .75rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .blur--news--other p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.375rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: center;
+    }
+
+    .news--title p{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .news--title span{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 2.143rem;
+        left: 50%;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 1rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: .75rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 1.429rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 3.25rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: .55rem;
+    }
+
+    .blur--maga--text--grid{
+        top: 76.25%;
+    } 
+
+    .barcode{
+        height: 3rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria div{
+        visibility: visible;
+    }
+
+    .blur--galleria::after{
+        display: none;
+    }
+    
+    .blur--galleria--logo div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.25rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.375rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .75rem;
+        top: 92.5%;
+    }
+ 
+    /* Splotcha Media Queries */ 
+    .blur--splotch div{
+        visibility: visible;
+    }
+
+    .blur--splotch::after{
+        display: none;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 5.143rem;
+        height: 3.714rem;
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 6.25rem;
+        height: 4.875rem;
+        font-size: .875rem;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 3rem;
+    }
+
+    .blur--sploch--rest{
+        background-position-y: top;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 1.5rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 0.875rem;
+    }
+
+    .pompeiStroke{
+        width: 12rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.375rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.25rem;
+    }
+  }
+  
+  /* Large phones (iPhone 6+/7+/8+, iPhone 14 Pro Max/15 Pro Max) */
+  @media (min-width: 414px) {
+    .blur--block--grid2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 40%;
+        height: 95%;
+        width: 95%;
+    }
+    
+    .blur--web--article2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.375rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 p{
+        font-size: .875rem;
+        text-align: center;
+    }
+    
+    /* Old Standard Media Queries */ 
+    .blur---web--gallery--neu1--img h1{
+        font-size: 1.5rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 0.625rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.75rem;
+    }
+
+    .old--grid div i{
+        font-size: 1.75rem;
+    }  
+
+    .blur--focal--button{
+        font-size: 0.625rem;
+        height: 10%;
+        margin-bottom: 1.25em;
+    }
+
+    /* Focal Point Media Queries */
+    .blur--focal--grid{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr;
+    }
+
+    .blur--focal--grid, .blur---focal--content--grid{
+        gap: 0.625rem;
+    }
+
+    .blur--focal--navbar{
+        width: 60%;
+        height: 7.5%;
+    }
+
+    .blur--focal--navbar span{
+        font-size: 0.375rem;
+    }
+
+    .blur---focal--content--grid{
+        padding-right: 0.5em;
+    }
+
+    .blur--focal--hero h1{
+        font-size: 1.5rem;
+    }
+
+    .blur--focal--hero h2{
+        font-size: .875rem;
+    }
+
+    .blur--focal--grid3 div i{
+        font-size: 1.75rem;
+    }
+
+    .blur--focal--grid3 div span{
+        font-size: 1rem;
+    }
+
+    .blur--focal--grid3 div p{
+        font-size: .75rem;
+    }
+
+    .focal--template span{
+        font-size: 1.25rem;
+    }
+
+    .focal--template p{
+        font-size: 0.75rem;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--navbar{
+        min-width: 55%; 
+    }
+
+    .blur--instant--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.75rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: .875rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 0.75rem; 
+    }
+
+    .blur--instant--pics i{
+        top: 85%; 
+    }
+
+    .blur--instant--waffle span{
+        font-size: 1.625rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: .75rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -125px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 0.75rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(25%, 50%));
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: .983rem;
+    }
+
+    .gala--button{
+        width: 1.375rem;
+        height: 1.375rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: .75rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: .75rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: .55rem;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.417rem;
+        line-break: anywhere; 
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .5rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 1.25rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: .5rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 5.375rem;
+        height: 5.375rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    /* Newspaper Media Queries */
+    .news--header span{
+        font-size: 2.25rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 1.375rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 0.983rem;
+        text-align: center;
+    }
+
+    .blur--news--other p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.417rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: center;
+    }
+
+    .news--title p{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .news--title span{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 2.143rem;
+        left: 50%;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 1.125rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: .875rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 1.75rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 3.75rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: .625rem;
+    }
+
+    .blur--maga--text--grid{
+        top: 76.25%;
+    } 
+
+    .barcode{
+        height: 3rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria--logo div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.25rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.375rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .75rem;
+        top: 92.5%;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch--hero--waffle span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 5.143rem;
+        height: 3.714rem;
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 6.25rem;
+        height: 4.875rem;
+        font-size: .875rem;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 4rem;
+    }
+
+    .blur--sploch--rest{
+        background-position-y: top;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 1.625rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 0.983rem;
+    }
+
+    .pompeiStroke{
+        width: 12rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.375rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.25rem;
+    }
+  }
+  
+  /* Extra large phones (Galaxy S22 Ultra, Galaxy Note) */
+  @media (min-width: 480px) {
+    .blur--web--article2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.375rem;
+        text-align: center;
+    }
+
+    .blur--web--article2 p{
+        font-size: .875rem;
+        text-align: center;
+    }
+
+    /* Old Standard Media Queries */ 
+    .blur---web--gallery--neu1--img h1{
+        font-size: 1.625rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 0.875rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .old--grid div i{
+        font-size: 1.75rem;
+    }  
+
+    .blur--focal--button{
+        font-size: 0.625rem;
+        height: 10%;
+        margin-bottom: 1.25em;
+    }
+
+    /* Focal Point Media Queries */
+    .blur--focal--navbar{
+        width: 60%;
+        height: 10%;
+    }
+
+    .blur--focal--navbar span{
+        font-size: 0.5rem;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        height: 30%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 55%; 
+    }
+
+    .blur--instant--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.75rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: .983rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 0.875rem; 
+    }
+
+    .blur--instant--pics i{
+        top: 85%; 
+    }
+
+    .blur--instant--waffle span{
+        font-size: 1.625rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: .875rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -125px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 0.75rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(25%, 50%));
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: .983rem;
+    }
+
+    .gala--button{
+        width: 1.375rem;
+        height: 1.375rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: .75rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: .75rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: .625rem;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.5rem;
+        line-break: anywhere; 
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .575rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 1.25rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: .5rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 6.375rem;
+        height: 6.375rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    /* Newspaper Media Queries */
+    .news--header span{
+        font-size: 2.25rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 1.375rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 0.983rem;
+        text-align: center;
+    }
+
+    .blur--news--other p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.45rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: center;
+    }
+
+    .news--title p{
+        font-size: 0.625rem;
+        text-align: center;
+    }
+
+    .news--title span{
+        font-size: 0.55rem;
+        text-align: center;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 2.25rem;
+        left: 50%;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 1.25rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: .983rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 1.875rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 3.875rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: .75rem;
+    }
+
+    .blur--maga--text--grid{
+        top: 76.25%;
+    } 
+
+    .barcode{
+        height: 3rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria--logo div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.375rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .75rem;
+        top: 92.5%;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch--hero--waffle span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 5.143rem;
+        height: 3.714rem;
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 6.25rem;
+        height: 4.875rem;
+        font-size: .875rem;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 4rem;
+    }
+
+    .blur--sploch--rest{
+        background-position-y: top;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 1.875rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.125rem;
+    }
+
+    .pompeiStroke{
+        width: 12rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.375rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.25rem;
+    }
+  }
+  
+  /* Small tablets (iPad Mini, Galaxy Tab A) */
+  @media (min-width: 600px) {
+    .close--article2 {
+        left: 8%;
+    }
+    .blur--web--article2 h1{
+        font-size: 2rem;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.875rem;
+    }
+
+    .blur--web--article2 p{
+        font-size: 1.375rem;
+    }
+
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1--img h1{
+        font-size: 2.125rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 1.125rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.983rem;
+    }
+
+    .old--grid div i{
+        font-size: 1.983rem;
+    }  
+
+    .old--template--waffle span {
+        font-size: 1.375rem;
+    }
+
+    .old--template--waffle p {
+        font-size: 0.875rem;
+    }
+
+    .blur--focal--button{
+        font-size: 0.75rem;
+        height: 10%;
+        margin-bottom: 0.625em;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.5rem;
+        height: 40%;
+    }
+
+    .blur--instant--pics{
+        width: 100%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 60%; 
+        height: 12.5%;
+    }
+
+    .blur--instant--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .blur--instant--section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+    }
+
+    .blur--instant--images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--img1, .blur--instant--img2{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        height: 90%;
+        width: 90%;
+        margin-inline: auto;
+        margin-top: 10%;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.75rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: .983rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 1rem; 
+    }
+
+    .blur--instant--pics i{
+        top: 85%; 
+    }
+
+    .blur--instant--waffle span{
+        font-size: 1.625rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: .983rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -175px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1.125rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 0.875rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(25%, 50%));
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: 1.125rem;
+    }
+
+    .gala--button{
+        width: 1.375rem;
+        height: 1.375rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: .75rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: .75rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: .625rem;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.5rem;
+        line-break: anywhere; 
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .575rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 1.25rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div i:nth-child(1)::before {
+        transform: translateY(20%);
+        line-height: 85%;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: .625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: 0.625rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 0.875rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 6.375rem;
+        height: 6.375rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    /* Newspaper Media Queries */
+    .news--header span{
+        font-size: 2.5rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 1.375rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 0.983rem;
+        text-align: center;
+    }
+
+    .blur--news--other p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.5125rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: center;
+    }
+
+    .news--title p{
+        font-size: 0.65rem;
+        text-align: center;
+    }
+
+    .news--title span{
+        font-size: 0.55rem;
+        text-align: center;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--text--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        top: 60%;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 2.5rem;
+        left: 50%;
+        margin-top: 0;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 1.375rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: 1rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 2rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 4rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: .875rem;
+    } 
+
+    .blur--maga--title{
+        height: 35%;
+    }
+
+    .blur--maga--title2{
+        height: 30%;
+    }
+
+    .barcode{
+        height: 3rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--galleria--logo div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: .983rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.375rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .75rem;
+        top: 85%;
+    }
+
+    .blur--galleria--hero{
+        grid-template-columns: 20% 80%;
+    }
+
+    .blur--galleria--logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blur--galleria--logo div:nth-child(2) {
+        display: none;
+    }
+
+    .blur--galleria--nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--galleria--nav div:nth-child(2){
+        display: none;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch{
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 1fr;
+        gap: 0.5rem;
+    }
+
+    .blur--splotch--hero--waffle{
+        left: 27.5%;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.625rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: .983rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 6.143rem;
+        height: 4.714rem;
+        font-size: 0.625rem;
+        left: 50%;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 7.25rem;
+        height: 5.875rem;
+        font-size: .875rem;
+        left: 75%;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 3.25rem;
+        margin-top: 0.75em;
+    }
+
+    .blur--sploch--rest{
+        grid-template-columns: 60% 40%;
+        background-position-y: top;
+        background-position-x: 65%;
+        background-size: cover;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 2rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.375rem;
+    }
+
+    .pompeiStroke{
+        width: 14rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.5rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.375rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1){
+        width: 150%;
+        height: 95%;
+    }
+  }
+  
+  /* Tablets (iPad, iPad Air) */
+  @media (min-width: 768px) {
+    .close--article2 {
+        left: 6%;
+    }
+    .blur--web--article2 h1{
+        font-size: 2rem;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 1.875rem;
+    }
+
+    .blur--web--article2 p{
+        font-size: 1.375rem;
+    }
+ 
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    } 
+
+    .blur---web--gallery--neu1--img h1{
+        font-size: 2.125rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 1.125rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .old--grid div i{
+        font-size: 2rem;
+    } 
+    
+    .old--grid div span {
+        font-size: 1.75rem;
+    }
+
+    .old--grid div p {
+        font-size: 1.125rem;
+    }
+
+    .old--template--img i{
+        font-size: 3.5rem;
+    }
+
+    .old--template--waffle span {
+        font-size: 1.625rem;
+    }
+
+    .old--template--waffle p {
+        font-size: 1.25rem;
+    }
+
+    .blur--focal--button{
+        font-size: 0.75rem;
+        height: 10%;
+        margin-bottom: 0.625em;
+    }
+
+    /* Focal Point Media Queries */ 
+    .blur--focal--grid, .blur---focal--content--grid{
+        gap: 0.625rem;
+    }
+
+    .blur--focal--navbar{
+        width: 70%;
+        height: 15%;
+    }
+
+    .blur--focal--navbar span{
+        font-size: 0.875rem;
+    }
+
+    .blur--focal--hero h1{
+        font-size: 1.983rem;
+    }
+
+    .blur--focal--hero h2{
+        font-size: 1.125rem;
+    }
+
+    .blur--focal--grid3 div i{
+        font-size: 2.125rem;
+    }
+
+    .blur--focal--grid3 div span{
+        font-size: 1.75rem;
+    }
+
+    .blur--focal--grid3 div p{
+        font-size: 1.25rem;
+    }
+
+    .focal--template span{
+        font-size: 1.875rem;
+    }
+
+    .focal--template p{
+        font-size: 1.125rem;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.5rem;
+        height: 40%;
+    }
+
+    .blur--instant--pics{
+        width: 100%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 60%; 
+        height: 12.5%;
+    }
+
+    .blur--instant--navbar span{
+        font-size: 0.983rem;
+    }
+
+    .blur--instant--section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+    }
+
+    .blur--instant--images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--img1, .blur--instant--img2{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        height: 90%;
+        width: 90%;
+        margin-inline: auto;
+        margin-top: 10%;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.983rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: 1.375rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 1.125rem; 
+    }
+
+    .blur--instant--pics i{
+        top: 85%; 
+        font-size: 1rem;
+    }
+
+    .blur--instant--waffle span{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: 1rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -175px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1.25rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 0.983rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(25%, 50%));
+        grid-template-rows: 1fr;
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+        transform: scaleY(0.9);
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 0.983rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: 1.125rem;
+    }
+
+    .gala--button{
+        width: 1.875rem;
+        height: 1.875rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: 1rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: 1rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 90%;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: 1rem;
+        margin-top: 0.5em;
+        margin-right: 0.625em;
+        text-align: center;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.6rem;
+        text-align: center;
+        line-break: anywhere; 
+    }
+
+    .gala--articles--grid{
+        top: 15%;
+        height: 80%;
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .75rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 1.75rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div i:nth-child(1)::before {
+        transform: translateY(20%);
+        line-height: 85%;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: .875rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: 0.75rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 0.875rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    .gala--articles--grid--div{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+ 
+    /* Newspaper Media Queries */
+    .blur--news--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--news--hero{
+        grid-template-areas: 
+        'three three three three three'
+        'four four four one one'
+        'four four four one one'
+        'five five five one one'
+        'five five five one one';
+    }
+
+    .blur--news--nav{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .news--nav:nth-of-type(2),
+    .news--nav:nth-of-type(3),
+    .news--nav:nth-of-type(4) {
+        border-left: none;
+        border-top: 2px solid black;
+    }
+
+    .blur--news--section{
+        grid-auto-rows: minmax(10%, 20%);
+        grid-template-areas:
+        'five five five five'
+        'one one two two'
+        'six six six six'
+        'three three three three'
+        'four four four four';
+    }
+
+    .news--header span{
+        font-size: 2.25rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 1.875rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1.375rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .blur--news--other p{
+        font-size: 0.75rem;
+        text-align: center;
+        -webkit-line-clamp: 8;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.55rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .news--title p{
+        font-size: 0.75rem;
+        text-align: left;
+    }
+
+    .news--title span{
+        font-size: 0.625rem;
+        text-align: left;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--text--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        top: 60%;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 2.625rem;
+        left: 50%;
+        margin-top: 0;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 1.625rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: 1rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 2.5rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 4.25rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: 1rem;
+    } 
+
+    .blur--maga--title{
+        height: 35%;
+    }
+
+    .blur--maga--title2{
+        height: 30%;
+    }
+
+    .barcode{
+        height: 3.5rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--galleria--logo div i{
+        font-size: 1.75rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: 1.25rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.375rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: .875rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .75rem;
+        top: 85%;
+    }
+
+    .blur--galleria--hero{
+        grid-template-columns: 20% 80%;
+    }
+
+    .blur--galleria--logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blur--galleria--logo div:nth-child(2) {
+        display: none;
+    }
+
+    .blur--galleria--nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--galleria--nav div:nth-child(2){
+        display: none;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch{
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 1fr;
+        gap: 0.5rem;
+    }
+
+    .blur--splotch--hero--waffle{
+        left: 27.5%;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.625rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: .983rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 6.143rem;
+        height: 4.714rem;
+        font-size: 0.625rem;
+        left: 50%;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 7.25rem;
+        height: 5.875rem;
+        font-size: .875rem;
+        left: 75%;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 3.625rem;
+        margin-top: 0.75em;
+    }
+
+    .blur--sploch--rest{
+        grid-template-columns: 60% 40%;
+        background-position-y: top;
+        background-position-x: 65%;
+        background-size: cover;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 2.25rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.625rem;
+    }
+
+    .pompeiStroke{
+        width: 14rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.25rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.5rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.375rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1){
+        width: 150%;
+        height: 95%;
+    }
+  }
+  
+  /* Small laptops and large tablets */
+  @media (min-width: 1024px) { 
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--web--article2 h1{
+        font-size: 2.5rem;
+    }
+
+    .blur--web--article2 h3{
+        font-size: 2.375rem;
+    }
+
+    .blur--web--article2 p{
+        font-size: 1.875rem;
+    }
+
+    .blur---web--gallery--neu1--img h1{
+        font-size: 2.125rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 1.5rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 1rem;
+    }
+
+    .old--grid div i{
+        font-size: 2.25rem;
+    } 
+    
+    .old--grid div span {
+        font-size: 2rem;
+    }
+
+    .old--grid div p {
+        font-size: 1.375rem;
+    }
+
+    .old--template--img i{
+        font-size: 3.75rem;
+    }
+
+    .old--template--waffle span {
+        font-size: 1.875rem;
+    }
+
+    .old--template--waffle p {
+        font-size: 1.5rem;
+    }
+
+    .blur--focal--button{
+        font-size: 0.983rem;
+        height: 10%;
+        margin-bottom: 0.625em;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        display: flex;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        height: 30%;
+    }
+
+    .blur--instant--pics{
+        width: 25%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 60%; 
+        height: 12.5%;
+    }
+
+    .blur--instant--navbar span{
+        font-size: 1.125rem;
+    }
+
+    .blur--instant--section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+    }
+
+    .blur--instant--images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--img1, .blur--instant--img2{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        height: 90%;
+        width: 90%;
+        margin-inline: auto;
+        margin-top: 10%;
+    }
+
+    .blur--instant--hero--waffle{
+        top: 60%;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.983rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: 1.375rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 1.375rem; 
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .blur--instant--pics i{
+        top: 90%;
+        left: 50%; 
+        font-size: 1.125rem;
+    }
+
+    .blur--instant--img1 div, .blur--instant--img2 div{
+        height: 80%;
+    }
+
+    .blur--instant--waffle span{
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: 1.25rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -175px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1.625rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 1.25rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(25%, 50%));
+        grid-template-rows: 1fr;
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+        transform: scaleY(0.9);
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1.5rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 1.25rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .gala--button{
+        width: 1.875rem;
+        height: 1.875rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: 1rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: 1.5rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 90%;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: 1rem;
+        margin-top: 0.5em;
+        margin-right: 0.625em;
+        text-align: center;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.6rem;
+        text-align: center;
+        line-break: anywhere; 
+    }
+
+    .gala--articles--grid{
+        top: 15%;
+        height: 80%;
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .983rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 2rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div i:nth-child(1)::before {
+        transform: translateY(20%);
+        line-height: 85%;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: 1rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: .875rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 1.125rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    .gala--articles--grid--div{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+
+    /* Newspaper Media Queries */
+    .blur--news--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--news--hero{
+        grid-template-areas: 
+        'three three three three three'
+        'four four four one one'
+        'four four four one one'
+        'five five five one one'
+        'five five five one one';
+    }
+
+    .blur--news--nav{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .news--nav:nth-of-type(2),
+    .news--nav:nth-of-type(3),
+    .news--nav:nth-of-type(4) {
+        border-left: none;
+        border-top: 2px solid black;
+    }
+
+    .blur--news--section{
+        grid-auto-rows: minmax(10%, 20%);
+        grid-template-areas:
+        'five five five five'
+        'one one two two'
+        'six six six six'
+        'three three three three'
+        'four four four four';
+    }
+
+    .news--header span{
+        font-size: 2.5rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 2.5rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1.5rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .news--article--start p::first-letter{
+        font-size: 4.714rem;
+        line-height: 0.7;
+    }
+
+    .blur--news--other p{
+        font-size: 0.875rem;
+        text-align: center;
+        -webkit-line-clamp: 8;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+        font-size: 1.5rem;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 1.25rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.6875rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .news--title p{
+        font-size: 0.875rem;
+        text-align: left;
+    }
+
+    .news--title span{
+        font-size: 0.75rem;
+        text-align: left;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--text--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        top: 60%;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 3rem;
+        left: 50%;
+        margin-top: 0;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 2rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: 1.625rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 2.875rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 4.5rem;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: 1.375rem;
+    } 
+
+    .blur--maga--title{
+        height: 35%;
+    }
+
+    .blur--maga--title2{
+        height: 30%;
+    }
+
+    .barcode{
+        height: 4.5rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .blur--galleria--logo div i{
+        font-size: 1.983rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.625rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: 1rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .983rem;
+        top: 85%;
+    }
+
+    .blur--galleria--hero{
+        grid-template-columns: 20% 80%;
+    }
+
+    .blur--galleria--logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blur--galleria--logo div:nth-child(2) {
+        display: none;
+    }
+
+    .blur--galleria--nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--galleria--nav div:nth-child(2){
+        display: none;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch{
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 1fr;
+        gap: 0.5rem;
+    }
+
+    .blur--splotch--hero--waffle{
+        left: 27.5%;
+        top: 40%;
+        height: 45%;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.875rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 1.125rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 7.143rem;
+        height: 5.714rem;
+        font-size: 0.875rem;
+        top: 120%;
+        left: 20%;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 8.25rem;
+        height: 6.875rem;
+        font-size: 1.125rem; 
+    }
+
+    .blur--splotch--nav1{
+        left: 72.5%;
+    }
+
+    .blur--splotch--nav2{
+        left: 88.75%;
+    }
+
+    .blur--splotch--nav3{
+        left: 70%;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 4.875rem;
+        margin-top: 0.75em;
+    }
+
+    .blur--sploch--rest{
+        grid-template-columns: 60% 40%;
+        background-position-y: top;
+        background-position-x: 65%;
+        background-size: cover;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 2.983rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.983rem;
+    }
+
+    .pompeiStroke{
+        width: 15rem;
+        height: 7.5rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1){
+        width: 150%;
+        height: 95%;
+    }
+  }
+  
+  /* Standard laptops and desktops */
+  @media (min-width: 1280px) {
+    .close--article2 {
+        left: 5%;
+    }
+
+    .blur--block--grid2{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr;
+    }
+
+    .blur--web--article2 h1{
+        font-size: 2.875rem;
+        text-align: left;
+    }
+
+    .blur--web--article2 h3{
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .blur--web--article2 p{
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%; 
+        padding: 15px 0.5em 25px 0.5em;
+    }
+
+    .blur---web--gallery--neu1--img h1{
+        font-size: 2.125rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 1.5rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 1rem;
+    }
+
+    .old--grid div i{
+        font-size: 2.25rem;
+    } 
+    
+    .old--grid div span {
+        font-size: 2rem;
+    }
+
+    .old--grid div p {
+        font-size: 1.375rem;
+    }
+
+    .old--template--img i{
+        font-size: 3.75rem;
+    }
+
+    .old--template--waffle span {
+        font-size: 1.875rem;
+    }
+
+    .old--template--waffle p {
+        font-size: 1.25rem;
+    }
+
+    .blur--focal--button{
+        font-size: 0.983rem;
+        height: 10%;
+        margin-bottom: 0.625em;
+    }
+
+    /* Focal Point Media Queries */
+    .blur--focal--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+
+    .blur--focal--navbar{
+        width: 60%;
+    }
+
+    .blur--focal--navbar span{
+        font-size: 1.125rem;
+    }
+
+    .blur--focal--hero h1{
+        font-size: 2rem;
+    }
+
+    .blur--focal--hero h2{
+        font-size: 1.5rem;
+    }
+
+    .blur--focal--grid3 div i{
+        font-size: 3rem;
+    }
+
+    .blur--focal--grid3 div span{
+        font-size: 1.875rem;
+    }
+
+    .blur--focal--grid3 div p{
+        font-size: 1.25rem;
+    }
+
+    .focal--template span{
+        font-size: 1.625rem;
+    }
+
+    .focal--template p{
+        font-size: 1.375rem;
+    }
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        display: flex;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        height: 30%;
+    }
+
+    .blur--instant--pics{
+        width: 25%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 60%; 
+        height: 12.5%;
+    }
+
+    .blur--instant--navbar span{
+        font-size: 1.125rem;
+    }
+
+    .blur--instant--section{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--images{
+        display: flex;
+    }
+
+    .blur--instant--img2{
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 40%;
+    }
+
+    .blur--instant--img1{
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 40%;
+    }
+
+    .blur--instant--hero--waffle{
+        top: 60%;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 1.983rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: 1.375rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 1.25rem; 
+        padding-left: 0.25em;
+        text-align: left;
+    }
+
+    .blur--instant--pics i{
+        top: 85%;
+        left: 85%; 
+        font-size: 1rem;
+    }
+
+    .blur--instant--img1 div, .blur--instant--img2 div{
+        height: 80%;
+    }
+
+    .blur--instant--waffle span{
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: 1.125rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -225px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1.625rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 1.25rem;
+    }
+
+    /* Gallery Neumorphism Media Queries */ 
+    .blur--gala--bento div, .blur--web--gala-neu div{
+        visibility: visible;
+    }
+
+    .blur---web--gallery--neu4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(25%, 50%));
+        gap: 0.375rem;
+        padding: 0.75em 0.5em;
+    }
+
+    .blur---web--gallery--neu4::after{
+        display: none;
+        content: "Viewport Too Small";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+    }
+
+    .blur--gala--bento {
+        display: grid; 
+        grid-template-areas:
+            'one three three'
+            'one four five'
+            'two two five';
+        gap: 0.5rem;
+        height: 100%; 
+        transform: scaleY(0.9);
+    }
+
+    .blur--web--gala-neu{
+        grid-template-rows: 35% 65%; 
+        gap: 0.5rem;
+        position: relative;  
+        padding-bottom: 10px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1){ 
+        margin-inline: auto;
+    }
+
+    .gala--title span{
+        font-size: 1.5rem;
+    }
+
+    .gala--articles span{
+        margin-top: 0.5em;
+        font-size: 1.25rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) span{
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .gala--button{
+        width: 1.875rem;
+        height: 1.875rem;
+        top: 50%;
+        left: 92.5%;
+    }
+
+    .gala--button i{
+        font-size: 1rem;
+        margin-top: 0.125em;
+    }
+
+    .gala--crystals span{
+        font-size: 1.5rem;
+        text-align: center;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 90%;
+    }
+
+    .gala--articles--grid--div div i{
+        font-size: 1rem;
+        margin-top: 0em;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .gala--articles--grid--div div p{
+        font-size: 0.6rem;
+        text-align: left;
+        line-break: anywhere; 
+    }
+
+    .gala--articles--grid{
+        top: 20%;
+        height: 70%;
+    }
+
+    .gala--crystals p{
+        bottom: 40%;
+        left: 50%;
+        margin: 0;
+        font-size: .875rem;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div i{
+        font-size: 2rem;
+    } 
+
+    .blur--web--gala-neu div:nth-of-type(1) div i:nth-child(1)::before {
+        transform: translateY(20%);
+        line-height: 85%;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div span {
+        font-size: 1rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(1) div p {
+        font-size: .875rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(2) p {
+        font-size: 1.125rem;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .blur--web--gala-neu div:nth-of-type(2) div:nth-of-type(1) div div{
+        height: 100%;
+    }
+
+    .gala--articles--grid--div{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 1fr;
+    }
+
+    /* Newspaper Media Queries */
+    .blur--news--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+    }
+
+    .blur--news--hero{
+        grid-template-areas:
+        'three three three three three'
+        'one one one one one'
+        'four four four five five'
+        'four four four five five'
+        'four four four five five';
+    }
+
+    .blur--news--nav{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .news--nav:nth-of-type(2),
+    .news--nav:nth-of-type(3),
+    .news--nav:nth-of-type(4) {
+        border-top: none;
+        border-left: 2px solid black;
+    }
+
+    .blur--news--section{
+        grid-auto-rows: minmax(12.5%, 25%);
+        grid-template-areas:
+        'five five five five'
+        'one six six six'
+        'one three three four'
+        'two three three four';
+    }
+
+    .news--header span{
+        font-size: 2.625rem;
+    }
+
+    .news--nav--icon i{
+        font-size: 2.5rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1.25rem;
+    }
+
+    .blur--news--other{
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .blur--news--other span{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .news--article--start p::first-letter{
+        font-size: 4.714rem;
+        line-height: 0.7;
+    }
+
+    .blur--news--other p{
+        font-size: 0.875rem;
+        text-align: center;
+        -webkit-line-clamp: 8;
+    }
+
+    .blur--news--other i{
+        left: 50%;
+        font-size: 1.5rem;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 1.625rem;
+    }
+
+    .news--article--grid div p, .news--article--start p, .news--article--end p, .news--article p{
+        font-size: 0.625rem;
+        line-height: 105%;
+    } 
+
+    .news--article--grid div span{
+        font-size: 3.5rem;
+    }
+
+    .news--title{
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .news--title p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .news--title span{
+        font-size: 0.625rem;
+        text-align: center;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--text--grid{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        top: 60%;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 3.5rem;
+        left: 50%;
+        margin-top: 0.25em;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 2.125rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: 1.625rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 2.875rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 4.875rem;
+        line-height: 0.8;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: 1.25rem;
+    } 
+
+    .blur--maga--title{
+        height: 45%;
+    }
+
+    .blur--maga--title2{
+        height: 40%;
+    }
+
+    .barcode{
+        height: 3.5rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .blur--galleria--logo div i{
+        font-size: 1.983rem;
+    }
+
+    .blur--galleria--logo div span{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div i{
+        font-size: 1.5rem;
+    }
+
+    .blur--galleria--nav div span {
+        font-size: .875rem;
+    }
+
+    .blur--galleria--cat--dark span{
+        font-size: 1.625rem;
+    }
+
+    .blur--galleria--cat--dark p{
+        font-size: 1rem;
+    }
+
+    .blur--galleria--button{
+        font-size: .983rem;
+        top: 85%;
+    }
+
+    .blur--galleria--hero{
+        grid-template-columns: 20% 80%;
+    }
+
+    .blur--galleria--logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blur--galleria--logo div:nth-child(2) {
+        display: none;
+    }
+
+    .blur--galleria--nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--galleria--nav div:nth-child(2){
+        display: none;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        gap: 0.5rem;
+    }
+
+    .blur--splotch--hero--waffle{
+        left: 27.5%;
+        top: 40%;
+        height: 45%;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.875rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 1.125rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 7.143rem;
+        height: 5.714rem;
+        font-size: 0.875rem;
+        top: 120%;
+        left: 20%;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 8.25rem;
+        height: 6.875rem;
+        font-size: 1.125rem; 
+    }
+
+    .blur--splotch--nav1{
+        left: 72.5%;
+    }
+
+    .blur--splotch--nav2{
+        left: 88.75%;
+    }
+
+    .blur--splotch--nav3{
+        left: 70%;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 4.875rem;
+        margin-top: 0.25em;
+    }
+
+    .blur--sploch--rest{
+        grid-template-columns: 60% 40%;
+        background-position-y: top;
+        background-position-x: 65%;
+        background-size: cover;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 2.983rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.983rem;
+    }
+
+    .pompeiStroke{
+        width: 15rem;
+        height: 7.5rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1){
+        width: 150%;
+        height: 95%;
+    }
+  }
+  
+  /* Large monitors */
+  @media (min-width: 1440px) {
+    /* Old Standard Media Queries */
+    .blur---web--gallery--neu1--img h1{
+        font-size: 2.273rem;
+    }
+
+    .blur---web--gallery--neu1--img p{
+        font-size: 0.818rem;
+    }
+
+    .blur--web--navbar{
+        min-width: 55%;
+    }
+
+    .blur--web--navbar span{
+        font-size: 0.983rem;
+    }
+
+    .old--grid div i{
+        font-size: 2.75rem;
+    }   
+
+    /* Instant Film Media Queries */
+    .blur--instant--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .blur--instant--waffle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur--instant--articles{
+        display: flex;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        height: 30%;
+    }
+
+    .blur--instant--pics{
+        width: 25%;
+    }
+
+    .blur--instant--navbar{
+        min-width: 60%; 
+        height: 12.5%;
+    }
+
+    .blur--instant--navbar span{
+        font-size: 1.125rem;
+    }
+
+    .blur--instant--section{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr;
+    }
+
+    .blur--instant--images{
+        display: flex;
+    }
+
+    .blur--instant--img2{
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 40%;
+    }
+
+    .blur--instant--img1{
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 40%;
+    }
+
+    .blur--instant--hero--waffle{
+        top: 55%;
+    }
+
+    .blur--instant--hero--waffle span{
+        font-size: 2rem;
+    }
+
+    .blur--instant--hero--waffle p{
+        font-size: 1.5rem;
+    }
+
+    .blur--instant--pics span{
+        font-size: 1.375rem; 
+        padding-left: 0.25em;
+        text-align: left;
+    }
+
+    .blur--instant--pics i{
+        top: 85%;
+        left: 85%; 
+        font-size: 1rem;
+    }
+
+    .blur--instant--img1 div, .blur--instant--img2 div{
+        height: 80%;
+    }
+
+    .blur--instant--waffle span{
+        font-size: 2.375rem;
+        text-align: center;
+    }
+
+    .blur--instant--waffle p{
+        font-size: 1.25rem;
+        text-align: center;
+    } 
+
+    .blur--instant--img--back{
+        margin-left: -225px;
+    }
+
+    .blur--instant--button div span{
+        font-size: 1.625rem;
+    }
+
+    .blur--instant--button div p{
+        font-size: 1.25rem;
+    } 
+
+    /* Newspaper Media Queries */
+    .news--header span{
+        font-size: 2.375rem;
+    }
+
+    .blur--news--other span{
+        font-size: 1rem;
+    }
+
+    .news--nav--waffle span{
+        font-size: 1rem;
+    }
+
+    .stocks span, .stocks p{
+        font-size: 0.983rem;
+    }
+
+    .news--title p{
+        font-size: 0.625rem;
+    }
+
+    /* Magazine Media Queries */
+    .blur--maga--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .blur--maga--grid div{
+        visibility: visible;
+    }
+
+    .blur--maga--grid::after{
+        display: none;
+    }
+
+    .blur--maga--text--grid{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        top: 60%;
+    }
+
+    .blur--maga--hero{
+        background-position-y: top;
+    }
+
+    .blur--maga--hero h1{
+        font-size: 3.5rem;
+        left: 50%;
+        margin-top: 0.25em;
+        letter-spacing: 0.375em;
+    }
+
+    .blur--maga--title span, .blur--maga--title2 span{
+        font-size: 2.125rem;
+    }
+
+    .blur--maga--title{
+        top: 70%;
+    }
+
+    .blur--maga--title2{
+        top: 45%;
+    }
+
+    .blur--maga--title p, .blur--maga--title2 p{
+        font-size: 1.625rem;
+    }
+
+    .blur--maga--article h3{
+        font-size: 2.875rem;
+    }
+
+    .blur--maga--text--grid div p::first-letter{
+        font-size: 4.875rem;
+        line-height: 0.8;
+    }
+
+    .blur--maga--text--grid div p{
+        font-size: 1.25rem;
+    } 
+
+    .blur--maga--title{
+        height: 45%;
+    }
+
+    .blur--maga--title2{
+        height: 40%;
+    }
+
+    .barcode{
+        height: 3.5rem;
+    }
+
+    /* Galleria Media Queries */
+    .blur--galleria--button{
+        top: 85%;
+    }
+
+    /* Splotcha Media Queries */ 
+    .blur--splotch{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        gap: 0.5rem;
+    }
+
+    .blur--splotch--hero--waffle{
+        left: 27.5%;
+        top: 40%;
+        height: 45%;
+    }
+
+    .blur--splotch--hero--waffle span{
+        font-size: 1.983rem;
+    }
+
+    .blur--splotch--hero--waffle p {
+        font-size: 1.375rem;
+    }
+
+    .blur--splotch--hero--waffle button{
+        width: 7.143rem;
+        height: 5.714rem;
+        font-size: 0.875rem;
+        top: 120%;
+        left: 20%;
+    }
+
+    .blur--splotch--nav1, .blur--splotch--nav2, .blur--splotch--nav3, .blur--splotch--nav4{
+        width: 8.25rem;
+        height: 6.875rem;
+        font-size: 1.125rem; 
+    }
+
+    .blur--splotch--nav1{
+        left: 72.5%;
+    }
+
+    .blur--splotch--nav2{
+        left: 88.75%;
+    }
+
+    .blur--splotch--nav3{
+        left: 70%;
+    }
+
+    .blur--splotch--hero--word h1{
+        font-size: 4.875rem;
+        margin-top: 0.25em;
+    }
+
+    .blur--sploch--rest{
+        grid-template-columns: 60% 40%;
+        background-position-y: top;
+        background-position-x: 65%;
+        background-size: cover;
+    } 
+
+    .blur--splotch--album h1{
+        font-size: 2.983rem;
+    }
+
+    .blur--splotch--album p{
+        font-size: 1.983rem;
+    }
+
+    .pompeiStroke{
+        width: 15rem;
+        height: 7.5rem;
+        left: 25%;
+    }
+
+    .pompeiStroke span{
+        font-size: 1.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div span{
+        font-size: 0.75rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1) div div div p{
+        font-size: 0.625rem;
+    }
+
+    .blur--splotch--article div:nth-of-type(1){
+        width: 150%;
+        height: 95%;
+    }
+  }
+  
+  /* 4K displays */
+  @media (min-width: 1920px) {
+    
+  }   
+ 

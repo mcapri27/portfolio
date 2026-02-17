@@ -1,0 +1,257 @@
+/* Very small phones (iPhone SE, Galaxy Fold closed) */
+  @media (min-width: 320px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 12%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+
+    .blur--privacy--article h1,
+    .blur--terms--article h1,
+    .blur--cookie--article h1{
+        font-size: 2rem;
+    }
+
+    .blur--privacy--article p,
+    .blur--terms--article p,
+    .blur--cookie--article p{
+        font-size: .625rem;
+    }
+
+    .blur--privacy--article h2,
+    .blur--terms--article h2,
+    .blur--cookie--article h2 {
+        font-size: 1.5rem;
+    }
+
+    .blur--privacy--article h3,
+    .blur--terms--article h3,
+    .blur--cookie--article h3 {
+        font-size: 1rem;
+    }
+
+    .blur--privacy--article li,
+    .blur--cookie--article li,
+    .blur--terms--article li {
+        font-size: .625rem;
+    } 
+  }
+  
+  /* Small phones (iPhone 6/7/8, older Androids) */
+  @media (min-width: 360px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 10%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+
+    .blur--privacy--article h1,
+    .blur--terms--article h1,
+    .blur--cookie--article h1{
+        font-size: 2rem;
+    }
+
+    .blur--privacy--article p,
+    .blur--terms--article p,
+    .blur--cookie--article p{
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article h2,
+    .blur--terms--article h2,
+    .blur--cookie--article h2 {
+        font-size: 1.625rem;
+    }
+
+    .blur--privacy--article h3,
+    .blur--terms--article h3,
+    .blur--cookie--article h3 {
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article li,
+    .blur--cookie--article li,
+    .blur--terms--article li {
+        font-size: 1rem;
+    } 
+  }
+  
+  /* Medium phones (iPhone X/11/12/13, Pixel 5) */
+  @media (min-width: 375px) { 
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 10%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+
+    .blur--privacy--article h1,
+    .blur--terms--article h1,
+    .blur--cookie--article h1{
+        font-size: 2rem;
+    }
+
+    .blur--privacy--article p,
+    .blur--terms--article p,
+    .blur--cookie--article p{
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article h2,
+    .blur--terms--article h2,
+    .blur--cookie--article h2 {
+        font-size: 1.625rem;
+    }
+
+    .blur--privacy--article h3,
+    .blur--terms--article h3,
+    .blur--cookie--article h3 {
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article li,
+    .blur--cookie--article li,
+    .blur--terms--article li {
+        font-size: 1rem;
+    } 
+  }
+  
+  /* Large phones (iPhone 6+/7+/8+, iPhone 14 Pro Max/15 Pro Max) */
+  @media (min-width: 414px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 10%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+
+    .blur--privacy--article h1,
+    .blur--terms--article h1,
+    .blur--cookie--article h1{
+        font-size: 2rem;
+    }
+
+    .blur--privacy--article p,
+    .blur--terms--article p,
+    .blur--cookie--article p{
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article h2,
+    .blur--terms--article h2,
+    .blur--cookie--article h2 {
+        font-size: 1.625rem;
+    }
+
+    .blur--privacy--article h3,
+    .blur--terms--article h3,
+    .blur--cookie--article h3 {
+        font-size: 1.25rem;
+    }
+
+    .blur--privacy--article li,
+    .blur--cookie--article li,
+    .blur--terms--article li {
+        font-size: 1rem;
+    } 
+  }
+  
+  /* Extra large phones (Galaxy S22 Ultra, Galaxy Note) */
+  @media (min-width: 480px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 10%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+  }
+  
+  /* Small tablets (iPad Mini, Galaxy Tab A) */
+  @media (min-width: 600px) {
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+  }
+  
+  /* Tablets (iPad, iPad Air) */
+  @media (min-width: 768px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 8%;
+    }
+
+    .blur--privacy, .blur--terms, .blur--cookies{
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 1fr;
+    }
+  }
+  
+  /* Small laptops and large tablets */
+  @media (min-width: 1024px) {
+    
+  }
+  
+  /* Standard laptops and desktops */
+  @media (min-width: 1280px) {
+    .close--article3, .close--article4,
+    .close--article5{
+        left: 7%;
+    }
+  }
+  
+  /* Large monitors */
+  @media (min-width: 1440px) {
+    
+  }
+  
+  /* 4K displays */
+  @media (min-width: 1920px) { 
+    .blur--privacy--article h1,
+    .blur--terms--article h1,
+    .blur--cookie--article h1{
+        font-size: 3rem;
+    }
+
+    .blur--privacy--article p,
+    .blur--terms--article p,
+    .blur--cookie--article p{
+        font-size: 1.75rem;
+    }
+
+    .blur--privacy--article h2,
+    .blur--terms--article h2,
+    .blur--cookie--article h2 {
+        font-size: 2.25rem;
+    }
+
+    .blur--privacy--article h3,
+    .blur--terms--article h3,
+    .blur--cookie--article h3 {
+        font-size: 1.75rem;
+    }
+
+    .blur--privacy--article li,
+    .blur--cookie--article li,
+    .blur--terms--article li {
+        font-size: 1.5rem;
+    } 
+  }
+    
